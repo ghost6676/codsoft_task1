@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Crypto Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img src="Crypto-logo1.png" alt="Company Logo" id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">WHY US?</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img
+            src="https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+            alt="Image of Bitcoin"
+          />
+        </div>
+        <div class="eye-grabber">
+          <h1>Revolutionizing Crypto</h1>
+          <h2>
+            Introducing the new one-stop platform for all your Crypto needs.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Start Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Our aim is to make a single platform for all your crypto
+            needs.CryptoX is a cutting-edge cryptocurrency platform designed to
+            empower individuals and businesses with a seamless and secure way to
+            engage in the world of digital assets. Built on a foundation of
+            trust, transparency, and innovation, CryptoX aims to revolutionize
+            the way people buy, sell, and manage cryptocurrencies
+          </p>
+          <img
+            src="https://images.unsplash.com/photo-1639152201720-5e536d254d81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80"
+            alt="An image related to cryptocurrency"
+          />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">Why Choose Us?</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img
+              src="https://images.unsplash.com/photo-1639322537163-dd9e9a344a97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80"
+              alt="illustration of crypto"
+            />
+            <h4>1000+ Clients Served</h4>
+            <p>
+              We've worked with a number of cliens, agencies and multinational
+              companies.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://images.unsplash.com/photo-1647331311387-9cca489b53f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+              alt="tech illustration"
+            />
+            <h4>200+ Assets Available</h4>
+            <p>Choose from credit card, bank account or payments app.</p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://images.unsplash.com/photo-1642403711604-3908e90960ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80"
+              alt="Crypto coin images"
+            />
+            <h4>Fastest Crypto Exchange</h4>
+            <p>The fastest software out there with the lowest fees.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT US</h3>
+        <div class="sec-content-div flexible">
+          <h6>
+            For more information and to stay connected to us subscribe now. To
+            know more contact us :
+          </h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
